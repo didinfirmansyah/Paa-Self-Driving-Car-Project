@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>DSelf Driving Car</title>
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="index.css" />
+	</head>
+<body>
+	<div id="content">
+		<h2>Contoh Self Driving Car</h2>
+
+	    <div id="controls" class='clear'>
+	    		<input type="button" id="btnGenerate" value="Buat Peta Baru" />
+				<br />
+		<span id="message">Click cell pada grid untuk memulai dan menentukan tujuan</span>
+	    </div>
+
+	    <div id="main">
+	    	<div id="search_grid"></div>
+	    </div>
+
+	</div>
+	<div id="footer"></div>
+
+	<script type='text/javascript' src='jquery-1.7.1.min.js'></script>
+	<script type='text/javascript' src='algoritmaAstar.js'></script>
+	<!--<script type='text/javascript' src='../dist/astar-concat.js'></script>-->
+	<script type='text/javascript' src='index.js'></script>
+</body>
+</html>

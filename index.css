@@ -1,0 +1,72 @@
+html, body {
+	height:100%;
+	margin:0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222; 
+}
+.buttons { 
+    float:right;
+    position:relative;
+    right: 10px;
+    top: 10px;
+}
+.buttons a {
+    text-decoration: none;
+}
+#content {
+	margin:0 auto;
+	width:50%;
+}
+
+#message {
+	color:#f00;
+	font-size:1.2em;
+}
+#controls {
+	border: dashed 3px #9999BB;
+	border-left:none;
+	border-right:none;
+	margin-bottom: 25px;
+	padding:5px 0;
+	width:650px;
+}
+#search_grid  {
+	width:650px;
+	height:650px;
+	position: relative;
+}
+
+.grid_item {
+	display: block;
+	border: 1px solid #bbb;
+	float: left;
+	line-height:12px;
+	font-size:10px;
+}
+.grid_item.wall {
+  background-color: #000000;
+}
+.grid_item.weight1 {
+  background-color: #ffffff;
+}
+.grid_item.weight3 {
+  background-color: #D6EAFF;
+}
+.grid_item.weight5 {
+  background-color: #ABD1FF;
+}
+.grid_item.start {
+  height: 3px;
+  width: 3px;
+  background-color: red;
+
+}
+.grid_item.active {
+	background-color: #FF703F;
+}
+.grid_item.finish {
+
+}
+
